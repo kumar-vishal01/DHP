@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Tag Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="hero-screen" id="hero">
+        <h1>StackOverflow Tag Trends</h1>
+        <button id="showChartBtn">View Trends</button>
+    </div>
+
+    <div class="chart-screen hidden" id="chartScreen">
+        <button id="goBackBtn">⬅ Back</button>
+        <h2>Tag Percentage Over the Years</h2>
+        <canvas id="lineChart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
